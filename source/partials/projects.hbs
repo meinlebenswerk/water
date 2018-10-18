@@ -1,0 +1,21 @@
+<section id="projects">
+  <div class="projects_container">
+    <h3>projects</h3>
+    <div class="project_card_container" id="p_cont">
+      {{#each projects}}
+        <div class="project_card">
+          {{#if name}}
+            <h4>{{name}}</h4>
+          {{/if}}
+          {{#if short_desc}}
+            <div class="short_descriptor">
+              {{short_desc}}
+            </div>
+          {{/if}}
+          <div class="select_dot">
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

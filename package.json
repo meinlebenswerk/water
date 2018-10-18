@@ -1,0 +1,28 @@
+{
+  "name": "meinlebenswerk_github_io",
+  "version": "1.0.0",
+  "description": "GithubIO page for meinlebenswerk",
+  "main": "main.js",
+  "scripts": {
+    "webdev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meinlebenswerk/meinlebenswerk.github.io.git"
+  },
+  "author": "niacino <npm.eckert@tum.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meinlebenswerk/meinlebenswerk.github.io/issues"
+  },
+  "homepage": "https://github.com/meinlebenswerk/meinlebenswerk.github.io#readme",
+  "dependencies": {
+    "gulp-less": "^3.5.0"
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

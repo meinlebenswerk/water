@@ -1,0 +1,186 @@
+/*font-family: 'Inconsolata', monospace;
+font-family: 'Josefin Slab', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+h3 {
+  font-family: 'Lobster', cursive;
+  text-align: left;
+  font-size: 5em;
+  margin-top: 0px;
+  margin-left: 5%;
+  color: #f00;
+}
+h4 {
+  font-family: 'Inconsolata', monospace;
+  text-transform: lowercase;
+  font-weight: 600;
+  text-align: center;
+  font-size: 170%;
+}
+body {
+  background: #000;
+  color: #000;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  line-height: 1.4;
+  align-content: center;
+}
+body,
+html {
+  /*fix for parallax-testing*/
+  margin: 0;
+  padding: 0;
+}
+.header_bar {
+  background-color: #fff;
+}
+/*GanglionJS Subpage :))*/
+#ganglionjs {
+  background-color: #fff;
+}
+#ganglionjs_header .welcome_parallax_container {
+  margin-top: -4em;
+  filter: blur(1px);
+  width: 100%;
+  height: 46em;
+  background: url("images/inkscape/neuronal_svg.svg") no-repeat center center fixed;
+  background-size: 120% 120%;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+/*WELCOME*/
+#welcome {
+  /*WELCOME PARALLAX*/
+}
+#welcome .welcome_container {
+  width: 100%;
+  background-color: #fff;
+}
+#welcome .welcome_parallax_container {
+  margin-top: -4em;
+  filter: brightness(60%) grayscale(40%);
+  width: 100%;
+  height: 46em;
+  background: url("images/base.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#welcome .center_container {
+  margin-top: -2em;
+  color: #fff;
+  font-size: 105%;
+  /*max-height: 40em;*/
+  /*overflow: hidden;*/
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translateX(-50%) translateY(-25%);
+}
+.center_container {
+  width: 85%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding-bottom: 2.4em;
+  font-size: 1.24em;
+  column-width: 16em;
+  column-gap: 3em;
+}
+/*PROJECTS*/
+#projects .projects_container {
+  overflow: visible;
+  margin: 0px;
+  width: 100%;
+  background-color: #fff;
+}
+#projects .project_card_container {
+  overflow: visible;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  max-width: inherit;
+  font-size: 1.24em;
+  column-width: 16em;
+  column-count: 2;
+  column-gap: 2em;
+}
+#projects .project_card {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 14%;
+  padding-top: 1em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  width: 90%;
+  max-width: 320px;
+  min-height: 20em;
+  border-radius: 0.2em;
+  background-color: #fff;
+  /*filter: drop-shadow( 20px 20px 40px rgba(0, 0, 0, 0.4));*/
+  box-shadow: 0.1em 0.2em 2em 0px rgba(0, 0, 0, 0.19);
+  color: #000;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  /*transform-origin: 0 0;*/
+  -webkit-column-break-inside: avoid;
+  /* Chrome, Safari */
+  page-break-inside: avoid;
+  /* Theoretically FF 20+ */
+  break-inside: avoid-column;
+  /* IE 11 */
+  display: table;
+  /* Actually FF 20+ */
+}
+#projects .project_card:hover {
+  background: #fff4f4 radial-gradient(circle, transparent 1%, #fff4f4 1%) center / 15000%;
+}
+#projects .project_card:hover .select_dot {
+  transform: translateX(-50%) translateY(50%);
+  opacity: 1;
+}
+#projects .project_card:active {
+  background-color: #ff1111;
+  background-size: 100%;
+}
+#projects .select_dot {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  opacity: 0;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-color: #f00;
+  transform: translateX(-50%) translateY(100%);
+  transition-duration: 400ms;
+}
+#projects .short_descriptor {
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.95em;
+  color: #4c4c4c;
+  text-align: center|left;
+  padding: 1em;
+  font-weight: 10;
+}
+/*PARALLAX*/
+#parallax .parallax_container {
+  height: 60em;
+  background: url("images/base.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Animation stuff::*/
